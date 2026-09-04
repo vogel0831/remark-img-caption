@@ -1,6 +1,6 @@
 {
   "name": "remark-img-caption",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Transform a paragraph containing exactly one image and one line of text into a <figure><img><figcaption> block.",
   "type": "module",
   "license": "MIT",
