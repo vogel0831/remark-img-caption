@@ -1,7 +1,7 @@
 {
   "name": "remark-img-caption",
   "version": "0.2.1",
-  "description": "Transform a paragraph containing exactly one image and one line of text into a <figure><img><figcaption> block.",
+  "description": "A remark plugin to use `<figcaption>` with image.",
   "type": "module",
   "license": "MIT",
   "sideEffects": false,
