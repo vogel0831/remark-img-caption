@@ -11,7 +11,7 @@ A remark plugin to use `<figcaption>` with image.
   >
 </center>
 
-## Inastall
+## Install
 
 ```sh
 npm i remark-img-caption remark-rehype
