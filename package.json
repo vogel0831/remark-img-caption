@@ -1,6 +1,6 @@
 {
   "name": "remark-img-caption",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A remark plugin to use `<figcaption>` with image.",
   "type": "module",
   "license": "MIT",
