@@ -2,7 +2,7 @@ import type { Image, Node, Paragraph, PhrasingContent, Text } from 'mdast';
 import type { Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
 
-const remarkFigure: Plugin<[], Node> = () => {
+const remarkImgCaption: Plugin<[], Node> = () => {
   return (tree) => {
     visit(tree, 'paragraph', (node: Paragraph) => {
       const children = node.children;
@@ -36,4 +36,4 @@ function trimLeadingWhitespace(nodes: PhrasingContent[]): PhrasingContent[] {
   return [{ ...text, value: trimmed }, ...tail];
 }
 
-export default remarkFigure;
+export default remarkImgCaption;
